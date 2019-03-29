@@ -51,12 +51,6 @@
 </div>
 
 
-
-
-
-
-
-
 <!-- Modal Hapus -->
 
 <div aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" id="delete-data" class="modal fade">
@@ -88,12 +82,15 @@
 </div>
 <!-- end modal hapus -->
 
- <a href="#v_add_product" class="btn btn-info">
-     <i class="fa fa-plus"></i> Tambah Product
- </a>
-  <a href="javascript:;" class="add-modal btn btn-warning" data-toggle ="modal" data-target="#add-tb">
-     <i class="glyphicon glyphicon-upload"></i> Import Product
- </a>
+<a href="#v_add_product" class="btn btn-info">
+   <i class="fa fa-plus"></i> Tambah Product
+</a>
+<a href="javascript:;" class="add-modal btn btn-warning" data-toggle ="modal" data-target="#add-tb">
+   <i class="glyphicon glyphicon-upload"></i> Import Product
+</a>
+<a href="<?php echo base_url('assets/axcel/import_product.xlsx');?>" class="add-modal btn btn-danger">
+   <i class="fa fa-download"></i> Download Format Excel
+</a>
 
 
 <!--Column rendering-->
